@@ -1,0 +1,26 @@
+.tabs{
+  display: flex;
+  height: 40px;
+}
+.tab{
+  width: 100px;
+  border: none;
+  margin-right: 10px;
+  font-family: serif;
+}
+.tab:hover{
+  background-color: antiquewhite;
+}
+.selected{
+  background-color: red;
+}
+.images{
+  position: relative;
+}
+.img{
+  position: absolute;
+  display: none;
+}
+.img.show{
+  display: block;
+}
